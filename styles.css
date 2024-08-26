@@ -1,0 +1,53 @@
+ 
+header{
+    height: auto;
+    
+    padding: 10px;
+}
+.logo-container img {
+    max-width: auto; /* Ajusta este valor según el tamaño de tu logo */
+    height: auto;
+    display: inline-block;
+}
+.logo{
+    display: flex;
+    height: 10px;
+}
+.logo img{
+    margin-right: 10px;
+    height: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    color: #08e47d;
+}
+
+.sensor-data {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    border-radius: 10px;
+}
+
+.sensor-data p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#tempValue, #humValue, #weightValue {
+    font-weight: bold;
+    font-size: 20px;
+}

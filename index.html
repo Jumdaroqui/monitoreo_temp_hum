@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Monitoreo de Sensores</title>
+    <!-- Incluye la librería Paho MQTT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoreo de Sensores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="#"="logo">
+            <img src="logo.png"alt="Logo compañia">
+            <h3>"Servicio Nacional de Aprendizaje - SENA">Sena Tecnoparque</h3>
+        </a>
+    </header>
+    <h1>Monitoreo de Temperatura, Humedad y Peso</h1>
+     <h3>Tecnoparque Nodo Neiva</h3>
+    <div class="sensor-data">
+        <p>Temperatura: <span id="tempValue">--</span> °C</p>
+        <p>Humedad: <span id="humValue">--</span> %</p>
+        <p>Peso: <span id="weightValue">--</span> kg</p>
+    </div>
+    <script src="app.js"></script>
+    <script src="styles.css"></script>
+</body>
+</html>
